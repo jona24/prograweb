@@ -1,0 +1,152 @@
+#login{
+background-color: #9dd9fa;
+ width:300px;
+ height:400px;
+ border-radius: 20px;
+}
+#iutn{
+
+	width:200px;
+	 height:150px; 
+	 border-radius: 20px;
+}
+#btaceptar{
+background-color: #f0f8ff;
+     border-radius: 20px;
+}
+#iutn2{
+   	width:150px;
+	 height:100px; 
+	 border-radius: 20px;
+
+}
+#cuerpo{
+background-color: #A9A9F5;
+
+}
+#mensaje{
+text-align: center;
+position: relative;
+background-color: #9dd9fa;
+ border-radius: 20px;
+ width:200px;
+ height:50px;
+ position: absolute;
+ top:  50px; 
+ left: 1000px;
+}
+.menu{
+width: 100%;
+overflow:hidden;
+}
+.menu ul{
+margin: 0;
+padding: 0;
+font: bold 14px Verdana; 
+list-style-type: none; 
+text-align: center; 
+}
+.menu li{
+display: inline;
+margin: 0;
+}
+.menu li a{
+display:inline-block;
+text-align:center; 
+text-decoration: none; 
+color: white; 
+background:#0080C0; 
+margin: 0;
+margin-right:2px; 
+width:100px; 
+height:30px; 
+}
+.menu a span{
+position:relative;
+top:25%; 
+}
+.menu li a:visited{
+color: white;
+}
+.menu a:hover{
+background:#00A5F4; 
+}
+#cuerpocarrera{
+	background-color: #0040FF;
+}
+body {
+   background: #BFD7C1; /* light green */
+   color: #262626;
+   font-family: Arial, san-serif;
+}
+ 
+#contact-form { 
+   background-color: #87C489;
+   width: 465px; 
+   padding: 20px; 
+   margin: 50px auto; 
+   border-radius: 15px;   
+   -moz-border-radius: 15px; 
+   -webkit-border-radius: 15px; 
+}
+ 
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea,   
+#contact-form label { 
+   font-size: 15px; 
+   margin-bottom: 2px;
+   font-family: Arial, san-serif;
+} 
+ 
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea { 
+   width: 450px;
+   background: #fff;
+   border: 0;
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px; 
+   border-radius: 5px;
+   margin-bottom: 25px; 
+   padding: 5px; 
+} 
+ 
+#contact-form input:focus,   
+#contact-form select:focus,   
+#contact-form textarea:focus { 
+   background-color: #E5E6E7;
+} 
+ 
+#contact-form textarea { 
+   height: 100px;   
+} 
+ 
+#contact-form #submit { 
+   width: 450px;   
+   color: #BFD7C1; 
+   border: none; 
+   background-color: #6EA070;
+} 
+ 
+#contact-form #submit:hover { 
+   background-color: #BFD7C1; 
+   color: #6EA070;
+}
+ 
+input:required { 
+   box-shadow: none;
+   -moz-box-shadow: none; 
+   -webkit-box-shadow: none; 
+   -o-box-shadow: none; 
+}
+ 
+#contact-form .required { 
+   font-weight:bold; 
+   color: #E5E6E7;     
+}
+ 
+#failure, #success {
+   color: #6EA070;
+   display:none; 
+}

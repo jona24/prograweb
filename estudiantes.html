@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="hojaStilo.css" media="screen" />
+	<title>Estudiantes</title>
+	</head>
+<body>
+<img src="http://www.utn.ac.cr/images/estudiantes.png">
+<center>
+<menu class="menu">  
+<ul>  
+<li><a href="#"><span>DASHBOARD</span></a></li>
+<li><a href="carreras.html"><span>CARRERAS</span></a></li>  
+<li><a href="estudiantes.html"><span>ESTUDIANTES</span></a></li>  
+<li><a href="#"><span>USUARIOS</span></a></li>  
+</ul>  
+</menu>
+</center>
+<div id="contact-form"> 
+   <h1>Ingreso de estudiantes</h1>
+   <p id="failure">Error al enviar datos</p> 
+   <p id="success">Gracias, Datos guardados</p> 
+   <form method="post" action="emailForm.php"> 
+      <label for="name">Name: <span class="required">*</span></label> 
+      <input type="text" id="name" name="name" value="" placeholder="Ingrese Nombre" required="required" autofocus="autofocus" /> 
+
+      <label for="apellidos">Apellidos: <span class="required">*</span></label> 
+      <input type="text" id="apellidos" name="apellidos" value="" placeholder="Apellidos" required="required" autofocus="autofocus" />  
+
+      <label for="email">Email Address: <span class="required">*</span></label> 
+      <input type="email" id="email" name="email" value="" placeholder="correo@email.com"/> 
+         
+      <label for="telefono">Telefono: </label> 
+      <input type="text" id="carrera" name="carrera" value="" /> 
+         
+      <label for="Carrera">Carrera: </label> 
+      <select id="Carrera" name="Carrera">
+         <option value=""></option>
+         <option value="Ingenieria del software">Ingenieria del software</option>
+         <option value="Contabilidad">Contabilidad</option> 
+         <option value="Ingles Conversacional">Ingles Conversacional</option>
+         </select> 
+         
+      <label for="observaciones">Observaciones: <span class="required">*</span></label> 
+      <textarea id="observaciones" name="observaciones" placeholder="Observaciones"></textarea> 
+           
+      <input type="submit" value="Send away!" id="submit" />
+   </form> 
+</div>
+</body>
+</html>
