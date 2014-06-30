@@ -56,10 +56,11 @@ text-align:center;
 text-decoration: none; 
 color: white; 
 background:#0080C0; 
-margin: 0;
+margin: 10px;
 margin-right:2px; 
-width:100px; 
+width:200px; 
 height:30px; 
+
 }
 .menu a span{
 position:relative;
@@ -81,7 +82,7 @@ body {
 }
  
 #contact-form { 
-   background-color: #87C489;
+   background-color: #8181F7;
    width: 465px; 
    padding: 20px; 
    margin: 50px auto; 
@@ -90,7 +91,10 @@ body {
    -webkit-border-radius: 15px; 
 }
  
-#contact-form input,   
+#apellidos,
+#name,
+#email,
+#carrera,    
 #contact-form select,   
 #contact-form textarea,   
 #contact-form label { 
@@ -99,7 +103,10 @@ body {
    font-family: Arial, san-serif;
 } 
  
-#contact-form input,   
+#apellidos,
+#name,
+#email,
+#carrera,    
 #contact-form select,   
 #contact-form textarea { 
    width: 450px;
@@ -112,7 +119,10 @@ body {
    padding: 5px; 
 } 
  
-#contact-form input:focus,   
+#apellidos,
+#name,
+#email,
+#carrera,   
 #contact-form select:focus,   
 #contact-form textarea:focus { 
    background-color: #E5E6E7;
@@ -123,10 +133,11 @@ body {
 } 
  
 #contact-form #submit { 
-   width: 450px;   
+   width: 150px;   
    color: #BFD7C1; 
    border: none; 
-   background-color: #6EA070;
+   background-color: #5858FA;
+
 } 
  
 #contact-form #submit:hover { 
@@ -149,4 +160,21 @@ input:required {
 #failure, #success {
    color: #6EA070;
    display:none; 
+}
+#habilidades{
+background-color: #81BEF7;
+ width:400px;  
+ height:100px;
+ border-radius: 20px;
+}
+#listaestudiantes{
+margin: 10px;
+background-color: #81BEF7;
+text-align: center;
+border: 1px solid black;
+max-width: 500px;
+color: #0101DF;
+}
+#licarrera{
+   background:#0101DF; 
 }

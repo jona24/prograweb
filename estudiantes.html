@@ -4,14 +4,14 @@
 <link rel="stylesheet" type="text/css" href="hojaStilo.css" media="screen" />
 	<title>Estudiantes</title>
 	</head>
-<body>
+<body id="cuerpo">
 <img src="http://www.utn.ac.cr/images/estudiantes.png">
 <center>
 <menu class="menu">  
 <ul>  
-<li><a href="#"><span>DASHBOARD</span></a></li>
+<li><a href="Principal.html"><span>DASHBOARD</span></a></li>
 <li><a href="carreras.html"><span>CARRERAS</span></a></li>  
-<li><a href="estudiantes.html"><span>ESTUDIANTES</span></a></li>  
+<li id ="liestudiantes"><a href="estudiantes.html"><span>ESTUDIANTES</span></a></li>  
 <li><a href="#"><span>USUARIOS</span></a></li>  
 </ul>  
 </menu>
@@ -37,15 +37,20 @@
       <select id="Carrera" name="Carrera">
          <option value=""></option>
          <option value="Ingenieria del software">Ingenieria del software</option>
-         <option value="Contabilidad">Contabilidad</option> 
-         <option value="Ingles Conversacional">Ingles Conversacional</option>
+         <option value="Contabilidad">Tecnologias informaticas</option> 
+         <option value="Ingles Conversacional">Informatica</option>
          </select> 
          
-      <label for="observaciones">Observaciones: <span class="required">*</span></label> 
-      <textarea id="observaciones" name="observaciones" placeholder="Observaciones"></textarea> 
-           
-      <input type="submit" value="Send away!" id="submit" />
-   </form> 
+         <div id="habilidades"   ><H2>Habilidades</H2>
+           <input type="radio" name="java" value="java"/>Programador JAVA
+           <input type="radio" name="c#" value="C#"/>Programador C#<br>
+           <input type="radio" name="web" value="web"/>Programador Web
+           <input type="radio" name="datos" value="datos"/>Administrador base datos
+         </div>
+       
+         <br>
+          <center><input type="submit" value="Enviar datos" id="submit" /></center>       
+         </form> 
 </div>
 </body>
 </html>
