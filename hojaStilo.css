@@ -9,16 +9,17 @@ background-color: #9dd9fa;
 	width:200px;
 	 height:150px; 
 	 border-radius: 20px;
+    position: absolute;
 }
 #btaceptar{
 background-color: #f0f8ff;
      border-radius: 20px;
 }
 #iutn2{
-   	width:150px;
-	 height:100px; 
+    width:300px;
+	 height:200px; 
 	 border-radius: 20px;
-
+    margin: 20px;
 }
 #cuerpo{
 background-color: #A9A9F5;
@@ -38,6 +39,7 @@ background-color: #9dd9fa;
 .menu{
 width: 100%;
 overflow:hidden;
+padding-left: 0px;
 }
 .menu ul{
 margin: 0;
@@ -189,3 +191,21 @@ font-family: Verdana,  sans-serif;
 font-size:14px;
 text-align: left;
 width: 600px; }
+#imgcarreras,
+#imgestudiantes,
+#imgextencion{
+
+  margin: 25px;
+  padding: 20px;
+}
+#confimg{ 
+padding-left: 110px;
+}  
+#msjprincipal{
+text-align: center;
+text-decoration: 90px;
+color: #0B3861;
+border :1px  solid #210B61 ;  
+background-color:#819FF7;
+font-family : arial ;      
+}
