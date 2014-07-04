@@ -4,15 +4,45 @@
 <link rel="stylesheet" type="text/css" href="hojaStilo.css" media="screen" />
 	<title>Usuarios</title>
 </head>
+<body id="cuerpo">
 <img src="http://www.utn.ac.cr/images/carreras.png" id="imgcarrera">
-<body id ="cuerpo">
+<center>
 <menu class="menu">  
 <ul>  
-<li id ="liprincipal"><a href="Principal.html"><span>DASHBOARD</span></a></li>
-<li><a href="carreras.html"><span>CARRERAS</span></a></li>  
+<li><a href="Principal.html"><span>DASHBOARD</span></a></li>
+<li id ="licarrera"><a href="carreras.html"><span>CARRERAS</span></a></li>  
 <li><a href="listasestudiantes.html"><span>ESTUDIANTES</span></a></li>  
 <li><a href="usuarios.html"><span>USUARIOS</span></a></li>  
 </ul>  
 </menu>
+</center>
+<h2 id="labelcarreras">Usuarios Sistema</h2>
+<div id="listacarrera">
+<table align="center" border=”0″ cellpadding=”2″ cellspacing=”2″ class=”mitabla”>
+<tr>
+<th>NOMBRE</th>
+<th>USUARIO</th>
+<th>CLAVE</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>JONATHAN ALVAREZ </td>
+<td>JONA</td>
+<td>JONA2483</td>
+<td><input type="button" value="ELIMINAR" onClick="location.href='eliminarusuario.html'"  /> </td>
+<td><input type="button" value="MODIFICAR" onClick="location.href='modificarjona.html'" /> </td>
+</tr>
+<tr>
+<td>ESTEFANE ASTUA </td>
+<td>FANY</td>
+<td>FANY24</td>
+<td><input type="button" value="ELIMINAR" onClick="location.href='eliminartefa.html'"  /> </td>
+<td><input type="button" value="MODIFICAR" onClick="location.href='modificartefa.html'" /> </td>
+</tr>
+</table>
+<br>
+<br>
+<center><input type="button" value="NUEVO" onClick="location.href='nuevousuario.html'" /></center>
 </body>
 </html>

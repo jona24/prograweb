@@ -10,7 +10,7 @@ background-color: #9dd9fa;
 	width:200px;
 	 height:150px; 
 	 border-radius: 20px;
-    position: absolute;
+  
 }
 #btaceptar{
 background-color: #f0f8ff;
@@ -184,10 +184,12 @@ border: 1px solid black;
 max-width: 500px;
 color: #0101DF;
 }
-#lista{
+#listacarrera,
+#lista,
+#carrera{
    background:#81BEF7;
    width: 500px;
-   height: 300px; 
+   height: 350px; 
    border: 2px solid black;   
    border-radius: 20px; 
    text-align: left;
@@ -225,10 +227,17 @@ font-family : arial ;
  text-align: center;
 }
 #lista,
+#listacarrera,
 #msprincipal,
-#msjeliminado{
+#msjeliminado,
+#busqueda,
+#login,
+#mensaje,
+#carrera,
+#contact-form,
+#habilidades {
    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAfC31lnDByUZm251iypuIy4U6XuEOicEwzsjpNoHNenWJzuk');
-   background-size: 800px;
+   background-size: 1100px;
    background-repeat: no-repeat;
 }
 #imgestudiante{
@@ -239,6 +248,27 @@ width: 100px;
    position: relative; top: 100px;
 }
 #imgbusqueda{
-width: 50px;
+width: 45px;
 
+}
+#busqueda{
+  width: 300px;
+  height: 100px;
+  text-align: center; 
+  border: 1px solid black;
+}
+#select{
+position: relative; left: -45px; 
+}
+#labelcarreras{
+ text-align: center;
+ font-family: Verdana,  sans-serif;
+ color: blue;
+}
+#listacarrera{
+  position: relative; left: 400px;
+}
+#confcodigo
+{
+position: relative; left: 26px
 }
